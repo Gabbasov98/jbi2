@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="color-scheme" content="light only">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <title>География поставок</title>
+</head>
+
+
+<body class="m-page">
+    <div class="wrapper">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top__inner _flex">
+                    <a href="" class="header-logo">
+                        <img src="img/logo2.svg" alt="">
+                    </a>
+
+                    <div data-modal="cityModal" class="header-city _flex">
+                        <img src="img/marker3.svg" alt="">
+                        <div class="text14">Екатеринбург</div>
+                    </div>
+                    <div class="nav">
+                        <ul>
+                            <li><a href="">Доставка</a></li>
+                            <li><a href="">Оплата</a></li>
+                            <li><a href="">География поставок</a></li>
+                            <li><a href="">О компании</a></li>
+                            <li><a href="">Контакты</a></li>
+                        </ul>
+                    </div>
+
+                    <button class="_toggle-catalog header-top__btn m-btn m-btn-yellow">
+                        <span>Каталог</span>
+                        <img src="img/arrow-right.svg" alt="">
+                    </button>
+
+                    <div class="header-action">
+                        <div class="header-action__top _flex">
+                            <button class="copy-btn" data-copy="zakaz@ruzhbi.ru">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M2.66927 10.6654C1.93594 10.6654 1.33594 10.0654 1.33594 9.33203V2.66536C1.33594 1.93203 1.93594 1.33203 2.66927 1.33203H9.33594C10.0693 1.33203 10.6693 1.93203 10.6693 2.66536M6.66927 5.33203H13.3359C14.0723 5.33203 14.6693 5.92898 14.6693 6.66536V13.332C14.6693 14.0684 14.0723 14.6654 13.3359 14.6654H6.66927C5.93289 14.6654 5.33594 14.0684 5.33594 13.332V6.66536C5.33594 5.92898 5.93289 5.33203 6.66927 5.33203Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                <span class="h5 _view1">
+                            zakaz@ruzhbi.ru
+                        </span>
+                                <span class="h5 _view2">
+                            скопировано
+                        </span>
+                            </button>
+                            <button class="header-action__toggle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M4 7L9.5 13L15 7" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="header-action__bottom">
+                            <div class="header-action__links">
+                                <a href="" class="header-action__link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M9.22003 11.046C9.35772 11.1092 9.51283 11.1237 9.65983 11.0869C9.80682 11.0502 9.93692 10.9645 10.0287 10.844L10.2654 10.534C10.3896 10.3684 10.5506 10.234 10.7357 10.1414C10.9209 10.0488 11.125 10.0007 11.332 10.0007H13.332C13.6857 10.0007 14.0248 10.1411 14.2748 10.3912C14.5249 10.6412 14.6654 10.9804 14.6654 11.334V13.334C14.6654 13.6876 14.5249 14.0267 14.2748 14.2768C14.0248 14.5268 13.6857 14.6673 13.332 14.6673C10.1494 14.6673 7.09719 13.403 4.84675 11.1526C2.59631 8.90216 1.33203 5.84992 1.33203 2.66732C1.33203 2.3137 1.47251 1.97456 1.72256 1.72451C1.9726 1.47446 2.31174 1.33398 2.66536 1.33398H4.66536C5.01899 1.33398 5.35812 1.47446 5.60817 1.72451C5.85822 1.97456 5.9987 2.3137 5.9987 2.66732V4.66732C5.9987 4.87431 5.9505 5.07846 5.85793 5.2636C5.76536 5.44874 5.63096 5.60979 5.46536 5.73398L5.15336 5.96798C5.03098 6.06144 4.94471 6.19437 4.90922 6.34422C4.87374 6.49406 4.89122 6.65157 4.9587 6.78998C5.86982 8.64056 7.36831 10.1372 9.22003 11.046Z" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="h7">
+                                8 (495) 150 57-89
+                            </span>
+                                </a>
+                            </div>
+                            <div class="header-action__links">
+                                <a href="" class="header-action__link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path class="_fill" d="M1.2071 7.78249C2.60989 7.00979 4.17579 6.36489 5.63889 5.71669C8.15599 4.65499 10.6831 3.61169 13.2357 2.64039C13.7323 2.47489 14.6247 2.31304 14.7122 3.04904C14.6643 4.09084 14.4672 5.12654 14.332 6.16224C13.9888 8.43984 13.5922 10.7096 13.2055 12.9797C13.0722 13.7359 12.125 14.1273 11.5189 13.6434C10.0623 12.6595 8.59449 11.6852 7.15649 10.6785C6.68544 10.1999 7.12224 9.51254 7.54294 9.17074C8.74264 7.98844 10.0149 6.98394 11.1519 5.74054C11.4586 4.99989 10.5524 5.62409 10.2535 5.81534C8.61114 6.94714 7.00894 8.14804 5.27734 9.14274C4.39284 9.62964 3.36194 9.21354 2.47784 8.94184C1.68513 8.61364 0.523522 8.28299 1.20702 7.78254L1.2071 7.78249Z" fill="#333333" />
+                                    </svg>
+                                    <span class="h7">
+                                Telegram
+                            </span>
+                                </a>
+                                <a href="" class="header-action__link">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path class="_fill" d="M8.15549 15.159C6.74231 15.159 6.08558 14.9518 4.94404 14.123C4.22198 15.0554 1.93545 15.784 1.83574 14.5374C1.83574 13.6015 1.62943 12.8107 1.39562 11.9474C1.11711 10.8837 0.800781 9.69926 0.800781 7.98296C0.800781 3.88387 4.14977 0.800049 8.11767 0.800049C12.089 0.800049 15.2007 4.03581 15.2007 8.02094C15.2071 9.90527 14.4689 11.7152 13.1481 13.0534C11.8272 14.3917 10.0317 15.1489 8.15549 15.159ZM8.21394 4.34316C6.28157 4.24301 4.77556 5.58635 4.44203 7.69288C4.16696 9.4368 4.65521 11.5606 5.07126 11.6711C5.27068 11.7194 5.77269 11.312 6.08558 10.9977C6.60296 11.3567 7.20545 11.5723 7.83228 11.6228C8.79478 11.6693 9.73702 11.3346 10.4565 10.6908C11.176 10.047 11.6152 9.14541 11.6798 8.1798C11.7175 7.21218 11.3754 6.2684 10.7272 5.55153C10.079 4.83465 9.17653 4.40198 8.21394 4.34661V4.34316Z" fill="#333333" />
+                                    </svg>
+                                    <span class="h7">
+                                Max
+                            </span>
+                                </a>
+                            </div>
+                            <div class="text12 gray-text">
+                                ПН-ПТ c 6:00 до 19:00 <br>
+                        по московскому времени
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="header-top__close _toggle-menu">
+                        <img src="img/close2.svg" alt="">
+                    </button>
+
+                    <a href="" class="header-top__req">
+                        <span>Отправить заявку</span>
+                        <img src="img/arrow-right.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom__inner _flex">
+                    <div class="header-bottom__mob">
+                        <a href="" class="header-logo">
+                            <img src="img/logo2.svg" alt="">
+                        </a>
+                        <a href="" class="header-bottom__phone h7">
+                            8 (495) 150 57-89
+                        </a>
+                    </div>
+                    <button class="_toggle-catalog catalog-btn m-btn m-btn-yellow">
+                        <span class="catalog-btn__img">
+                    <img src="img/burger.svg" alt="" class="_view1">
+                    <img src="img/burger2.svg" alt="" class="_view2">
+                </span>
+                        <span class="body-m">Каталог</span>
+                    </button>
+                    <div class="header-search">
+                        <div class="fg">
+                            <input type="text" placeholder="Введите название или артикул товара">
+                        </div>
+                        <img class="header-search__icon" src="img/search.svg" alt="">
+                    </div>
+                    <a href="" class="header-cart m-btn-gray-outline">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M2.05078 2.05078H4.05078L6.71078 14.4708C6.80836 14.9256 7.06145 15.3323 7.42649 15.6206C7.79153 15.909 8.24569 16.0611 8.71078 16.0508H18.4908C18.946 16.05 19.3873 15.8941 19.7418 15.6086C20.0964 15.3232 20.3429 14.9253 20.4408 14.4808L22.0908 7.05078H5.12078M9.00078 21.0008C9.00078 21.5531 8.55307 22.0008 8.00078 22.0008C7.4485 22.0008 7.00078 21.5531 7.00078 21.0008C7.00078 20.4485 7.4485 20.0008 8.00078 20.0008C8.55307 20.0008 9.00078 20.4485 9.00078 21.0008ZM20.0008 21.0008C20.0008 21.5531 19.5531 22.0008 19.0008 22.0008C18.4485 22.0008 18.0008 21.5531 18.0008 21.0008C18.0008 20.4485 18.4485 20.0008 19.0008 20.0008C19.5531 20.0008 20.0008 20.4485 20.0008 21.0008Z" stroke="#939393" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <span class="h6">0 ₽</span>
+                    </a>
+                    <a href="" class="header-favourite m-btn-gray-outline">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M2 9.50053C2.00002 8.38773 2.33759 7.30111 2.96813 6.38419C3.59867 5.46727 4.49252 4.76319 5.53161 4.36493C6.5707 3.96667 7.70616 3.89297 8.78801 4.15357C9.86987 4.41417 10.8472 4.99681 11.591 5.82453C11.6434 5.88054 11.7067 5.9252 11.7771 5.95573C11.8474 5.98626 11.9233 6.00201 12 6.00201C12.0767 6.00201 12.1526 5.98626 12.2229 5.95573C12.2933 5.9252 12.3566 5.88054 12.409 5.82453C13.1504 4.99143 14.128 4.4039 15.2116 4.14013C16.2952 3.87636 17.4335 3.94887 18.4749 4.34801C19.5163 4.74715 20.4114 5.45398 21.0411 6.37443C21.6708 7.29488 22.0053 8.38529 22 9.50053C22 11.7905 20.5 13.5005 19 15.0005L13.508 20.3135C13.3217 20.5275 13.0919 20.6994 12.834 20.8178C12.5762 20.9362 12.296 20.9984 12.0123 21.0002C11.7285 21.002 11.4476 20.9434 11.1883 20.8283C10.9289 20.7131 10.697 20.5442 10.508 20.3325L5 15.0005C3.5 13.5005 2 11.8005 2 9.50053Z" stroke="#939393" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <div class="header-lk">
+                        <a href="" class="header-lk__show m-btn m-btn-gray-outline">
+                            <img src="img/user.svg" alt="">
+                            <span class="h6">Вход</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-catalog">
+                <button class="_back-to-menu header-catalog__close">
+                    <img src="img/close2.svg" alt="">
+                </button>
+                <button class="_back-to-menu header-catalog__back back-btn">
+                    <img src="img/arrow-left.svg" alt="">
+                    <span class="h5">Каталог</span>
+                </button>
+                <div class="container">
+                    <div class="header-catalog__inner">
+                        <div class="header-catalog__col">
+                            <div class="header-catalog__items">
+                                <div class="menu-item">
+                                    <div class="menu-item__show">
+                                        <span class="h5">Популярные категории</span>
+                                    </div>
+                                    <div class="menu-item__hidden">
+                                        <button class="menu-item__back back-btn">
+                                            <img src="img/arrow-left.svg" alt="">
+                                            <span class="h5">Популярные категории</span>
+                                        </button>
+                                        <div class="menu-item__scroll">
+                                            <div class="menu-group">
+                                                <a href="" class="h4">
+                                                    Благоустройство территорий
+                                                </a>
+                                                <ul class="menu-group__links">
+                                                    <li><a href="">Вазоны</a></li>
+                                                    <li><a href="">Комплектующие водоотвода (решётки, пескоуловители и т.д.)</a></li>
+                                                    <li><a href="">Заборы и другие элементы ограждения</a></li>
+                                                    <li><a href="">Скамьи</a></li>
+                                                    <li><a href="">Стойки (опоры) дорожных знаков</a></li>
+                                                    <li><a href="">Столбы освещения (опоры освещения)</a></li>
+                                                    <li><a href="">Тетраподы</a></li>
+                                                    <li><a href="">Тротуарная плитка</a></li>
+                                                    <li><a href="">Урны</a></li>
+                                                    <li><a href="">Фундаменты дорожных знаков</a></li>
+                                                    <li><a href="">Козырьки входа</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-group">
+                                                <a href="" class="h4">
+                                                    Балки
+                                                </a>
+                                                <ul class="menu-group__links">
+                                                    <li><a href="">Балки обвязочные</a></li>
+                                                    <li><a href="">Балки перекрытий СБНОС</a></li>
+                                                    <li><a href="">Балки подкрановых путей</a></li>
+                                                    <li><a href="">Балки стропильные</a></li>
+                                                    <li><a href="">Балки фундаментные</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-group">
+                                                <a href="" class="h4">
+                                                    Благоустройство территорий
+                                                </a>
+                                                <ul class="menu-group__links">
+                                                    <li><a href="">Вазоны</a></li>
+                                                    <li><a href="">Комплектующие водоотвода (решётки, пескоуловители и т.д.)</a></li>
+                                                    <li><a href="">Заборы и другие элементы ограждения</a></li>
+                                                    <li><a href="">Скамьи</a></li>
+                                                    <li><a href="">Стойки (опоры) дорожных знаков</a></li>
+                                                    <li><a href="">Столбы освещения (опоры освещения)</a></li>
+                                                    <li><a href="">Тетраподы</a></li>
+                                                    <li><a href="">Тротуарная плитка</a></li>
+                                                    <li><a href="">Урны</a></li>
+                                                    <li><a href="">Фундаменты дорожных знаков</a></li>
+                                                    <li><a href="">Козырьки входа</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="menu-item__more _flex">
+                                                <a href="" class="menu-item__more-link text16">
+                                                    Все товары
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="menu-item">
+                                    <div class="menu-item__show">
+                                        <span class="h5">Дорожное строительство</span>
+                                    </div>
+                                    <div class="menu-item__hidden">
+                                        <button class="menu-item__back back-btn">
+                                            <img src="img/arrow-left.svg" alt="">
+                                            <span class="h5">Дорожное строительство</span>
+                                        </button>
+                                        <div class="menu-item__scroll">
+                                            <div class="menu-group">
+                                                <ul class="menu-group__links">
+                                                    <li><a href="">Автопавильоны</a></li>
+                                                    <li><a href="">Балки</a></li>
+                                                    <li><a href="">Бассейны</a></li>
+                                                    <li><a href="">Блоки</a></li>
+                                                    <li><a href="">Гаражи</a></li>
+                                                    <li><a href="">Детали резервуаров</a></li>
+                                                    <li><a href="">Диафрагмы жесткости</a></li>
+                                                    <li><a href="">ЖБИ для с/х</a></li>
+                                                    <li><a href="">Кирпич</a></li>
+                                                    <li><a href="">Колонны</a></li>
+                                                    <li><a href="">Люки</a></li>
+                                                    <li><a href="">Панели стеновые, цокольные, карнизные, керамзитобетонные</a></li>
+                                                    <li><a href="">Перемычки</a></li>
+                                                    <li><a href="">Плиты</a></li>
+                                                    <li><a href="">Прогоны</a></li>
+                                                    <li><a href="">Ригели</a></li>
+                                                    <li><a href="">Сваи</a></li>
+                                                    <li><a href="">Фундаменты</a></li>
+                                                    <li><a href="">Шахты лифта</a></li>
+                                                    <li><a href="">Элементы лестничных сходов</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="menu-item">
+                                    <div class="menu-item__show">
+                                        <span class="h5">Железнодорожное строительство</span>
+                                    </div>
+                                    <div class="menu-item__hidden">
+                                        <button class="menu-item__back back-btn">
+                                            <img src="img/arrow-left.svg" alt="">
+                                            <span class="h5">Железнодорожное строительство</span>
+                                        </button>
+                                        <div class="menu-item__scroll">
+                                            <div class="menu-group">
+                                                <ul class="menu-group__links">
+                                                    <li><a href="">Автопавильоны</a></li>
+                                                    <li><a href="">Балки</a></li>
+                                                    <li><a href="">Бассейны</a></li>
+                                                    <li><a href="">Блоки</a></li>
+                                                    <li><a href="">Гаражи</a></li>
+                                                    <li><a href="">Детали резервуаров</a></li>
+                                                    <li><a href="">Диафрагмы жесткости</a></li>
+                                                    <li><a href="">ЖБИ для с/х</a></li>
+                                                    <li><a href="">Кирпич</a></li>
+                                                    <li><a href="">Колонны</a></li>
+                                                    <li><a href="">Люки</a></li>
+                                                    <li><a href="">Панели стеновые, цокольные, карнизные, керамзитобетонные</a></li>
+                                                    <li><a href="">Перемычки</a></li>
+                                                    <li><a href="">Плиты</a></li>
+                                                    <li><a href="">Прогоны</a></li>
+                                                    <li><a href="">Ригели</a></li>
+                                                    <li><a href="">Сваи</a></li>
+                                                    <li><a href="">Фундаменты</a></li>
+                                                    <li><a href="">Шахты лифта</a></li>
+                                                    <li><a href="">Элементы лестничных сходов</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="menu-item">
+                                    <div class="menu-item__show">
+                                        <span class="h5">Инженерная инфраструктура</span>
+                                    </div>
+                                    <div class="menu-item__hidden">
+                                        <button class="menu-item__back back-btn">
+                                            <img src="img/arrow-left.svg" alt="">
+                                            <span class="h5">Инженерная инфраструктура</span>
+                                        </button>
+                                        <div class="menu-item__scroll">
+                                            <div class="menu-group">
+                                                <ul class="menu-group__links">
+                                                    <li><a href="">Автопавильоны</a></li>
+                                                    <li><a href="">Балки</a></li>
+                                                    <li><a href="">Бассейны</a></li>
+                                                    <li><a href="">Блоки</a></li>
+                                                    <li><a href="">Гаражи</a></li>
+                                                    <li><a href="">Детали резервуаров</a></li>
+                                                    <li><a href="">Диафрагмы жесткости</a></li>
+                                                    <li><a href="">ЖБИ для с/х</a></li>
+                                                    <li><a href="">Кирпич</a></li>
+                                                    <li><a href="">Колонны</a></li>
+                                                    <li><a href="">Люки</a></li>
+                                                    <li><a href="">Панели стеновые, цокольные, карнизные, керамзитобетонные</a></li>
+                                                    <li><a href="">Перемычки</a></li>
+                                                    <li><a href="">Плиты</a></li>
+                                                    <li><a href="">Прогоны</a></li>
+                                                    <li><a href="">Ригели</a></li>
+                                                    <li><a href="">Сваи</a></li>
+                                                    <li><a href="">Фундаменты</a></li>
+                                                    <li><a href="">Шахты лифта</a></li>
+                                                    <li><a href="">Элементы лестничных сходов</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="menu-item">
+                                    <div class="menu-item__show">
+                                        <span class="h5">Общегражданское и промышленное строительство</span>
+                                    </div>
+                                    <div class="menu-item__hidden">
+                                        <button class="menu-item__back back-btn">
+                                            <img src="img/arrow-left.svg" alt="">
+                                            <span class="h5">Общегражданское и промышленное строительство</span>
+                                        </button>
+                                        <div class="menu-item__scroll">
+                                            <div class="menu-group">
+                                                <ul class="menu-group__links">
+                                                    <li><a href="">Автопавильоны</a></li>
+                                                    <li><a href="">Балки</a></li>
+                                                    <li><a href="">Бассейны</a></li>
+                                                    <li><a href="">Блоки</a></li>
+                                                    <li><a href="">Гаражи</a></li>
+                                                    <li><a href="">Детали резервуаров</a></li>
+                                                    <li><a href="">Диафрагмы жесткости</a></li>
+                                                    <li><a href="">ЖБИ для с/х</a></li>
+                                                    <li><a href="">Кирпич</a></li>
+                                                    <li><a href="">Колонны</a></li>
+                                                    <li><a href="">Люки</a></li>
+                                                    <li><a href="">Панели стеновые, цокольные, карнизные, керамзитобетонные</a></li>
+                                                    <li><a href="">Перемычки</a></li>
+                                                    <li><a href="">Плиты</a></li>
+                                                    <li><a href="">Прогоны</a></li>
+                                                    <li><a href="">Ригели</a></li>
+                                                    <li><a href="">Сваи</a></li>
+                                                    <li><a href="">Фундаменты</a></li>
+                                                    <li><a href="">Шахты лифта</a></li>
+                                                    <li><a href="">Элементы лестничных сходов</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="menu-item">
+                                    <div class="menu-item__show">
+                                        <span class="h5">Энергетическое строительство</span>
+                                    </div>
+                                    <div class="menu-item__hidden">
+                                        <button class="menu-item__back back-btn">
+                                            <img src="img/arrow-left.svg" alt="">
+                                            <span class="h5">Энергетическое строительство</span>
+                                        </button>
+                                        <div class="menu-item__scroll">
+                                            <div class="menu-group">
+                                                <ul class="menu-group__links">
+                                                    <li><a href="">Автопавильоны</a></li>
+                                                    <li><a href="">Балки</a></li>
+                                                    <li><a href="">Бассейны</a></li>
+                                                    <li><a href="">Блоки</a></li>
+                                                    <li><a href="">Гаражи</a></li>
+                                                    <li><a href="">Детали резервуаров</a></li>
+                                                    <li><a href="">Диафрагмы жесткости</a></li>
+                                                    <li><a href="">ЖБИ для с/х</a></li>
+                                                    <li><a href="">Кирпич</a></li>
+                                                    <li><a href="">Колонны</a></li>
+                                                    <li><a href="">Люки</a></li>
+                                                    <li><a href="">Панели стеновые, цокольные, карнизные, керамзитобетонные</a></li>
+                                                    <li><a href="">Перемычки</a></li>
+                                                    <li><a href="">Плиты</a></li>
+                                                    <li><a href="">Прогоны</a></li>
+                                                    <li><a href="">Ригели</a></li>
+                                                    <li><a href="">Сваи</a></li>
+                                                    <li><a href="">Фундаменты</a></li>
+                                                    <li><a href="">Шахты лифта</a></li>
+                                                    <li><a href="">Элементы лестничных сходов</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="header-catalog__col2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <main class="content">
+
+            <div class='project-main m-section'>
+                <div class="container">
+                    <div class='breadcrumbs'>
+                        <button class="breadcrumbs__btn">
+                            <img src="img/dots.svg" alt="">
+                        </button>
+                        <div class='breadcrumbs__inner'>
+                            <a href="" class="breadcrumbs__item"><span>Главная</span></a>
+                            <a href="" class="breadcrumbs__item"><span>География поставок</span></a>
+                            <div class="breadcrumbs__item"><span>Поставка ЖБИ для культурного центра «Шайба» в Первоуральске</span></div>
+                        </div>
+                    </div>
+                    <h1 class="h1">
+                        Поставка ЖБИ для культурного центра «Шайба» в Первоуральске
+                    </h1>
+                    <div class="project-main__grid">
+                        <div class="project-main__col">
+                            <div class="gallery">
+                                <div class="gallery__big">
+                                    <div class="swiper mySwiper2">
+                                        <div class="swiper-wrapper gallery-group">
+                                            <div class="swiper-slide">
+                                                <a href="img/gallery-img.webp" class="gallery__img" data-fancybox="@@album">
+                                                    <img src="img/gallery-img.webp" alt="Галлерея">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="img/gallery-img2.webp" class="gallery__img" data-fancybox="@@album">
+                                                    <img src="img/gallery-img2.webp" alt="Галлерея">
+                                                </a>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <a href="img/gallery-img3.webp" class="gallery__img" data-fancybox="@@album">
+                                                    <img src="img/gallery-img3.webp" alt="Галлерея">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gallery__small">
+                                    <div thumbsSlider class="swiper mySwiper">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="gallery__img">
+                                                    <img src="img/gallery-img.webp" alt="Галлерея">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="gallery__img">
+                                                    <img src="img/gallery-img2.webp" alt="Галлерея">
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="gallery__img">
+                                                    <img src="img/gallery-img3.webp" alt="Галлерея">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="project-main__col2">
+                            <div class="project-info">
+                                <div class="project-info__top">
+                                    <div class="text16 gray-text">
+                                        Заказчик
+                                    </div>
+                                    <img src="img/project-info.jpg" alt="">
+                                </div>
+                                <div class="_mt16">
+                                    <div class="text text--small">
+                                        <p>Компания ООО «ЭнергоКомплекс» выполняет функции генерального подрядчика на отдельные виды работ и проектировщика в сфере промышленного и гражданского строительства.</p>
+                                    </div>
+                                </div>
+                                <div class="project-info__bottom">
+                                    <div class="project-info__props">
+                                        <div class="prop-item">
+                                            <div class="prop-item__title">Регион поставки</div>
+                                            <div class="prop-item__desc">Первоуральск</div>
+                                        </div>
+                                        <div class="prop-item">
+                                            <div class="prop-item__title">Год</div>
+                                            <div class="prop-item__desc">2025</div>
+                                        </div>
+                                        <div class="prop-item">
+                                            <div class="prop-item__title">Тип объекта</div>
+                                            <div class="prop-item__desc">Социальный объект</div>
+                                        </div>
+                                        <div class="prop-item">
+                                            <div class="prop-item__title">Объём поставки, ед.</div>
+                                            <div class="prop-item__desc">100+</div>
+                                        </div>
+                                        <div class="prop-item">
+                                            <div class="prop-item__title">Формат доставки</div>
+                                            <div class="prop-item__desc">Автотранспорт</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-main__col3">
+                            <div class="project-info">
+                                <div class="project-info__top">
+                                    <div class="text16 gray-text">
+                                        О проекте
+                                    </div>
+                                </div>
+                                <div class="_mt16">
+                                    <div class="text text--small">
+                                        <p>Инновационный культурный центр «Шайба» – это уникальный объект, расположенный в историческом центре города Первоуральска. Сегодня это территория для обмена проектами и мощная информационная площадка, которая притягивает креативных людей и интересные программы.  </p>
+                                        <p>Поставка элементов инженерных сооружений, лестничных сходов и бордюров.</p>
+                                    </div>
+                                </div>
+                                <div class="project-info__bottom">
+                                    <a href="" class="text16 underline-text">
+                                        Посмотреть отзыв
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shipped m-section">
+                <div class="container">
+                    <div class="h2">
+                        Поставленная продукция
+                    </div>
+                    <div class="_mt40 _mt28-tablet grid4 grid-laptop3 grid-tablet2 grid-mob-small">
+                        <div class="product-card3">
+                            <div class="product-card3__img">
+                                <img src="img/product-img16.webp" alt="">
+                            </div>
+                            <div class="product-card3__content">
+                                <div class="h4">ПК 21-10-10</div>
+                                <div class="_mt4">
+                                    <div class="text14">
+                                        Арт. 2345678
+                                    </div>
+                                </div>
+                                <div class="product-card3__nav _mt20 _flex">
+                                    <a href="" class="m-btn m-btn-small m-btn-yellow">
+                                        <span>Подробнее</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card3">
+                            <div class="product-card3__img">
+                                <img src="img/product-img17.webp" alt="">
+                            </div>
+                            <div class="product-card3__content">
+                                <div class="h4">ФБС-12-3-6</div>
+                                <div class="_mt4">
+                                    <div class="text14">
+                                        Арт. 2051971
+                                    </div>
+                                </div>
+                                <div class="product-card3__nav _mt20 _flex">
+                                    <a href="" class="m-btn m-btn-small m-btn-yellow">
+                                        <span>Подробнее</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card3">
+                            <div class="product-card3__img">
+                                <img src="img/product-img18.webp" alt="">
+                            </div>
+                            <div class="product-card3__content">
+                                <div class="h4">КО-1</div>
+                                <div class="_mt4">
+                                    <div class="text14">
+                                        Арт. 3019305
+                                    </div>
+                                </div>
+                                <div class="product-card3__nav _mt20 _flex">
+                                    <a href="" class="m-btn m-btn-small m-btn-yellow">
+                                        <span>Подробнее</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card3">
+                            <div class="product-card3__img">
+                                <img src="img/product-img16.webp" alt="">
+                            </div>
+                            <div class="product-card3__content">
+                                <div class="h4">ПК-36-8-8</div>
+                                <div class="_mt4">
+                                    <div class="text14">
+                                        Арт. 2345678
+                                    </div>
+                                </div>
+                                <div class="product-card3__nav _mt20 _flex">
+                                    <a href="" class="m-btn m-btn-small m-btn-yellow">
+                                        <span>Подробнее</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card3">
+                            <div class="product-card3__img">
+                                <img src="img/product-img17.webp" alt="">
+                            </div>
+                            <div class="product-card3__content">
+                                <div class="h4">ФБС-12-3-6</div>
+                                <div class="_mt4">
+                                    <div class="text14">
+                                        Арт. 2051971
+                                    </div>
+                                </div>
+                                <div class="product-card3__nav _mt20 _flex">
+                                    <a href="" class="m-btn m-btn-small m-btn-yellow">
+                                        <span>Подробнее</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card3">
+                            <div class="product-card3__img">
+                                <img src="img/product-img18.webp" alt="">
+                            </div>
+                            <div class="product-card3__content">
+                                <div class="h4">КО-1</div>
+                                <div class="_mt4">
+                                    <div class="text14">
+                                        Арт. 3019305
+                                    </div>
+                                </div>
+                                <div class="product-card3__nav _mt20 _flex">
+                                    <a href="" class="m-btn m-btn-small m-btn-yellow">
+                                        <span>Подробнее</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="product-card3">
+                            <div class="product-card3__img">
+                                <img src="img/product-img16.webp" alt="">
+                            </div>
+                            <div class="product-card3__content">
+                                <div class="h4">ПК-36-8-8</div>
+                                <div class="_mt4">
+                                    <div class="text14">
+                                        Арт. 2345678
+                                    </div>
+                                </div>
+                                <div class="product-card3__nav _mt20 _flex">
+                                    <a href="" class="m-btn m-btn-small m-btn-yellow">
+                                        <span>Подробнее</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="help m-section _last">
+                <div class="container">
+                    <div class="help__inner">
+                        <div class="help__content">
+                            <div class="h2">
+                                Нужна помощь?
+                            </div>
+                            <div class="_mt12">
+                                <div class="text18">
+                                    Отправьте заявку, мы подберём самые оптимальные варианты <span class="_no-wrap">по стоимости</span> и срокам. Ответ придёт вам на почту.
+                                </div>
+                            </div>
+                            <div class="help__nav _mt40 _mt28-tablet _flex">
+                                <button class="m-btn m-btn-yellow">
+                                    <span>Отправить смету</span>
+                                </button>
+                                <button data-copy="zakaz@ruzhbi.ru" class="m-btn m-btn-gray-outline">
+                                    <img src="img/copy.svg" alt="">
+                                    <span>zakaz@ruzhbi.ru</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="help__worker">
+                            <div class="help__worker-text">
+                                <div class="h5 text14-mob">
+                                    Тахаутдинов Ильнар
+                                </div>
+                                <div class="text16 text14-mob gray-text">
+                                    Менеджер по работе <span class="_no-wrap">с клиентами</span>
+                                </div>
+                            </div>
+                            <img src="img/worker.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-top grid4">
+                    <div class="footer-top__col">
+                        <a href="" class="footer__logo">
+                            <img src="img/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="footer-top__col2">
+                        <div class="body-m semi-bold-text">
+                            Каталог ЖБИ
+                        </div>
+                        <div class="footer-nav _mt16">
+                            <ul>
+                                <li><a href="">Дорожное строительство</a></li>
+                                <li><a href="">Железнодорожное строительство</a></li>
+                                <li><a href="">Инженерная инфраструктура</a></li>
+                                <li><a href="">Общегражданское и промышленное строительство</a></li>
+                                <li><a href="">Энергетическое строительство</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-top__col3">
+                        <div class="body-m semi-bold-text">
+                            Компания
+                        </div>
+                        <div class="footer-nav _mt16">
+                            <ul>
+                                <li><a href="">Доставка</a></li>
+                                <li><a href="">Оплата</a></li>
+                                <li><a href="">География поставок</a></li>
+                                <li><a href="">О компании</a></li>
+                                <li><a href="">Реквизиты</a></li>
+                                <li><a href="">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-top__col4">
+                        <div class="h3">
+                            <a href="mailto:zakaz@air-ekb.com">zakaz@air-ekb.com</a>
+                        </div>
+                        <div class="_mt12">
+                            <div class="h3">
+                                <a href="tel:8 (495) 150 57-89">8 (495) 150 57-89</a>
+                            </div>
+                        </div>
+                        <div class="_mt28 _mt16-tablet">
+                            <div class="body-s">
+                                Мессенджеры
+                            </div>
+                            <div class="socials _mt12">
+                                <a href="" class="socials__item">
+                                    <img src="img/tg.svg" alt="">
+                                </a>
+                                <a href="" class="socials__item">
+                                    <img src="img/max.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="_mt28 _mt16-tablet">
+                            <div class="body-s">
+                                г. Екатеринбург, ул. Фронтовых Бригад <span class="_no-wrap">д. 31,</span> <span class="_no-wrap">офис 301</span>
+                            </div>
+                            <div class="_mt12">
+                                <div class="body-s">
+                                    ПН-ПТ c 6:00 до 19:00 по московскому времени
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom gray-text grid4">
+                    <div class="footer-bottom__col">
+                        <div class="body-s">
+                            © Все права защищены <br>
+                2008–2026
+                        </div>
+                    </div>
+                    <div class="footer-bottom__col2">
+                        <div class="body-s">
+                            Сайт не является офертой. Актуальные цены <span class="_no-wrap">и наличие</span> товаров уточняйте по телефону или в мессенджерах.
+                        </div>
+                    </div>
+                    <div class="footer-bottom__col3">
+                        <a href="" class="body-s">Политика конфиденциальности</a>
+                        <div class="_mt4">
+                            <a href="" class="body-s">
+                                Согласие на обработку персональных данных
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-bottom__col4">
+                        <div class="body-s">
+                            Дизайн: <a href="">loginova.me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="scroll-up">
+                <img src="img/arrow-top.svg" alt="">
+            </button>
+
+            <div class="footer-mob">
+                <button class="_toggle-menu footer-mob__btn">
+                    <img src="img/menu-icon.svg" alt="">
+                    <span>Меню</span>
+                </button>
+                <a href="" class="footer-mob__btn">
+                    <img src="img/menu-icon2.svg" alt="">
+                    <span>Избранное</span>
+                    <span class="pin">2</span>
+                </a>
+                <a href="" class="footer-mob__btn">
+                    <img src="img/menu-icon3.svg" alt="">
+                    <span>Корзина</span>
+                    <span class="pin">24</span>
+                </a>
+                <a href="" class="footer-mob__btn">
+                    <img src="img/menu-icon4.svg" alt="">
+                    <span>Вход</span>
+                </a>
+                <a href="" class="footer-mob__btn">
+                    <img src="img/menu-icon5.svg" alt="">
+                    <span>Контакты</span>
+                </a>
+            </div>
+
+        </footer>
+    </div>
+
+    <div class="modal modal-city" id="cityModal">
+        <div class="modal__bg modal-bg _close-modal"></div>
+        <div class="modal__dialog">
+            <div class="h2">
+                Выберите город
+            </div>
+
+            <div class="header-search">
+                <div class="fg">
+                    <input type="text" placeholder="Введите название города">
+                </div>
+                <img class="header-search__icon" src="img/search.svg" alt="">
+            </div>
+
+            <div class="modal-city__bottom">
+                <div class="modal-city__suggest">
+                    <div class="modal-city__suggest-item"><span class="h5">Москва</span></div>
+                    <div class="modal-city__suggest-item modal-city__suggest-item--active"><span class="h5">Екатеринбург</span></div>
+                    <div class="modal-city__suggest-item"><span class="h5">Пермь</span></div>
+                </div>
+                <div class="modal-city__letters">
+                    <a href="#group1" class="modal-city__letter">А</a>
+                    <a href="#group2" class="modal-city__letter">Б</a>
+                    <a href="#group3" class="modal-city__letter">В</a>
+                    <a href="#group4" class="modal-city__letter">Г</a>
+                    <a href="#group5" class="modal-city__letter">Е</a>
+                    <a href="#group6" class="modal-city__letter">И</a>
+                    <a href="" class="modal-city__letter">К</a>
+                    <a href="" class="modal-city__letter">Л</a>
+                    <a href="" class="modal-city__letter">М</a>
+                    <a href="" class="modal-city__letter">Н</a>
+                    <a href="" class="modal-city__letter">О</a>
+                    <a href="" class="modal-city__letter">П</a>
+                    <a href="" class="modal-city__letter">Р</a>
+                    <a href="" class="modal-city__letter">С</a>
+                    <a href="" class="modal-city__letter">Т</a>
+                    <a href="" class="modal-city__letter">У</a>
+                    <a href="" class="modal-city__letter">Ф</a>
+                    <a href="" class="modal-city__letter">Х</a>
+                    <a href="" class="modal-city__letter">Ч</a>
+                    <a href="" class="modal-city__letter">Ш</a>
+                    <a href="" class="modal-city__letter">Ю</a>
+                    <a href="" class="modal-city__letter">Я</a>
+                </div>
+
+                <div class="modal-city__groups">
+                    <div id="group1" class="modal-city__group">
+                        <div class="modal-city__group-title">А</div>
+                        <div class="modal-city__list">
+                            <div class="modal-city__item">Абакан</div>
+                            <div class="modal-city__item">Арамиль</div>
+                            <div class="modal-city__item">Армавир</div>
+                            <div class="modal-city__item">Архангельск</div>
+                            <div class="modal-city__item">Алушта</div>
+                            <div class="modal-city__item">Ардон</div>
+                            <div class="modal-city__item">Арти</div>
+                            <div class="modal-city__item">Астрахань</div>
+                            <div class="modal-city__item">Анапа</div>
+                        </div>
+                    </div>
+                    <div id="group2" class="modal-city__group">
+                        <div class="modal-city__group-title">Б</div>
+                        <div class="modal-city__list">
+                            <div class="modal-city__item">Абакан</div>
+                            <div class="modal-city__item">Арамиль</div>
+                            <div class="modal-city__item">Армавир</div>
+                            <div class="modal-city__item">Архангельск</div>
+                            <div class="modal-city__item">Алушта</div>
+                            <div class="modal-city__item">Ардон</div>
+                            <div class="modal-city__item">Арти</div>
+                            <div class="modal-city__item">Астрахань</div>
+                            <div class="modal-city__item">Анапа</div>
+                        </div>
+                    </div>
+                    <div id="group3" class="modal-city__group">
+                        <div class="modal-city__group-title">В</div>
+                        <div class="modal-city__list">
+                            <div class="modal-city__item">Абакан</div>
+                            <div class="modal-city__item">Арамиль</div>
+                            <div class="modal-city__item">Армавир</div>
+                            <div class="modal-city__item">Архангельск</div>
+                            <div class="modal-city__item">Алушта</div>
+                            <div class="modal-city__item">Ардон</div>
+                            <div class="modal-city__item">Арти</div>
+                            <div class="modal-city__item">Астрахань</div>
+                            <div class="modal-city__item">Анапа</div>
+                        </div>
+                    </div>
+                    <div id="group4" class="modal-city__group">
+                        <div class="modal-city__group-title">Г</div>
+                        <div class="modal-city__list">
+                            <div class="modal-city__item">Абакан</div>
+                            <div class="modal-city__item">Арамиль</div>
+                            <div class="modal-city__item">Армавир</div>
+                            <div class="modal-city__item">Архангельск</div>
+                            <div class="modal-city__item">Алушта</div>
+                            <div class="modal-city__item">Ардон</div>
+                            <div class="modal-city__item">Арти</div>
+                            <div class="modal-city__item">Астрахань</div>
+                            <div class="modal-city__item">Анапа</div>
+                        </div>
+                    </div>
+                    <div id="group5" class="modal-city__group">
+                        <div class="modal-city__group-title">Д</div>
+                        <div class="modal-city__list">
+                            <div class="modal-city__item">Абакан</div>
+                            <div class="modal-city__item">Арамиль</div>
+                            <div class="modal-city__item">Армавир</div>
+                            <div class="modal-city__item">Архангельск</div>
+                            <div class="modal-city__item">Алушта</div>
+                            <div class="modal-city__item">Ардон</div>
+                            <div class="modal-city__item">Арти</div>
+                            <div class="modal-city__item">Астрахань</div>
+                            <div class="modal-city__item">Анапа</div>
+                        </div>
+                    </div>
+                    <div id="group6" class="modal-city__group">
+                        <div class="modal-city__group-title">Е</div>
+                        <div class="modal-city__list">
+                            <div class="modal-city__item">Абакан</div>
+                            <div class="modal-city__item">Арамиль</div>
+                            <div class="modal-city__item">Армавир</div>
+                            <div class="modal-city__item">Архангельск</div>
+                            <div class="modal-city__item">Алушта</div>
+                            <div class="modal-city__item">Ардон</div>
+                            <div class="modal-city__item">Арти</div>
+                            <div class="modal-city__item">Астрахань</div>
+                            <div class="modal-city__item">Анапа</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <button class="close-btn _close-modal">
+                <img src="img/close2.svg" alt="">
+            </button>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
