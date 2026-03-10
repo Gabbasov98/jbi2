@@ -133,6 +133,12 @@
                             <input type="text" placeholder="Введите название или артикул товара">
                         </div>
                         <img class="header-search__icon" src="img/search.svg" alt="">
+
+                        <div class="search-block__loader loader">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
                     <a href="" class="header-cart m-btn-gray-outline">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -454,7 +460,7 @@
                             </div>
                         </div>
                         <div class="main__col2">
-                            <img src="img/main-img.webp" alt="" class="main__img">
+                            <img src="img/main.webp" alt="" class="main__img">
                         </div>
                     </div>
 
@@ -722,115 +728,6 @@
 
             </div>
 
-            <div class="main-catalog m-section">
-                <div class="container">
-                    <div class="link-and-title">
-                        <div class="h2">
-                            Каталог ЖБИ
-                        </div>
-                        <a href="" class="m-btn m-btn-yellow">
-                            <span>Вся продукция</span>
-                            <img src="img/arrow-right.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="_mt32 grid3 grid-laptop2 grid-tablet">
-                        <div class="category-card _big">
-                            <div class="category-card__top">
-                                <div class="h3">
-                                    <a href="">
-                                        Общегражданское <span class="_no-wrap">и промышленное</span> строительство
-                                    </a>
-                                </div>
-                                <div class="category-card__num text18">
-                                    (6515)
-                                </div>
-                            </div>
-                            <div class="category-card__links _mt28">
-                                <a href="" class="category-card__link">Балки</a>
-                                <a href="" class="category-card__link">Благоустройство территорий</a>
-                                <a href="" class="category-card__link">Блоки</a>
-                                <a href="" class="category-card__link">ЖБИ для с/х</a>
-                                <a href="" class="category-card__link">Защитные сооружения гражданской обороны</a>
-                                <a href="" class="category-card__link">Люки</a>
-                                <a href="" class="category-card__link">Перемычки</a>
-                                <a href="" class="category-card__link">Плиты</a>
-                                <a href="" class="category-card__link">Прочее</a>
-                                <a href="" class="category-card__link">Ригели</a>
-                                <a href="" class="category-card__link">Фундаменты</a>
-                                <a href="" class="category-card__link">Шахты</a>
-                                <a href="" class="category-card__link">Элементы лестничных сходов</a>
-                            </div>
-                        </div>
-                        <div class="category-card">
-                            <div class="category-card__top">
-                                <div class="h3">
-                                    <a href="">Инженерная инфраструктура</a>
-                                </div>
-                                <div class="category-card__num text18">
-                                    (2386)
-                                </div>
-                            </div>
-                            <div class="category-card__links _mt28">
-                                <a href="" class="category-card__link">Блоки</a>
-                                <a href="" class="category-card__link">Колодцы</a>
-                                <a href="" class="category-card__link">Лотки</a>
-                                <a href="" class="category-card__link">Плиты</a>
-                                <a href="" class="category-card__link">Трубы круглые и изделия к ним</a>
-                                <a href="" class="category-card__link">Трубы прямоугольные и изделия к ним</a>
-                                <a href="" class="category-card__link">Устройство коммуникационных сооружений</a>
-                                <a href="" class="category-card__link">Утяжелители</a>
-                            </div>
-                        </div>
-                        <div class="category-card">
-                            <div class="category-card__top">
-                                <div class="h3">
-                                    <a href="">Дорожное строительство</a>
-                                </div>
-                                <div class="category-card__num text18">
-                                    (447)
-                                </div>
-                            </div>
-                            <div class="category-card__links _mt28">
-                                <a href="" class="category-card__link">Мостостроение</a>
-                                <a href="" class="category-card__link">Ограничители движения</a>
-                                <a href="" class="category-card__link">Плиты</a>
-                            </div>
-                        </div>
-                        <div class="category-card">
-                            <div class="category-card__top">
-                                <div class="h3">
-                                    <a href="">Энергетическое строительство</a>
-                                </div>
-                                <div class="category-card__num text18">
-                                    (284)
-                                </div>
-                            </div>
-                            <div class="category-card__links _mt28">
-                                <a href="" class="category-card__link">Плиты</a>
-                                <a href="" class="category-card__link">Стойки</a>
-                                <a href="" class="category-card__link">Элементы подстанций</a>
-                            </div>
-                        </div>
-                        <div class="category-card">
-                            <div class="category-card__top">
-                                <div class="h3">
-                                    <a href="">Железнодорожное строительство</a>
-                                </div>
-                                <div class="category-card__num text18">
-                                    (51)
-                                </div>
-                            </div>
-                            <div class="category-card__links _mt28">
-                                <a href="" class="category-card__link">Изделия для обустройства ж/д путей</a>
-                                <a href="" class="category-card__link">Плиты</a>
-                                <a href="" class="category-card__link">Фундаменты</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
             <div class="advantages m-section">
                 <div class="container">
                     <div class="grid3 grid-tablet">
@@ -872,8 +769,9 @@
                                 </div>
                             </div>
                             <div class="advantage-card__img">
-                                <img src="img/advantage-img2.webp" alt="" class="_view1">
-                                <img src="img/advantage-img2-tablet.webp" alt="" class="_view2">
+                                <img src="img/center-img.webp" alt="">
+                                <!--                <img src="img/advantage-img2.webp" alt="" class="_view1">-->
+                                <!--                <img src="img/advantage-img2-tablet.webp" alt="" class="_view2">-->
                             </div>
                         </div>
                         <div class="advantage-card">
@@ -893,8 +791,9 @@
                                 </div>
                             </div>
                             <div class="advantage-card__img">
-                                <img src="img/advantage-img3.webp" alt="" class="_view1">
-                                <img src="img/advantage-img3-tablet.webp" alt="" class="_view2">
+                                <img src="img/right-img.webp" alt="">
+                                <!--        <img src="img/advantage-img3.webp" alt="" class="_view1">-->
+                                <!--        <img src="img/advantage-img3-tablet.webp" alt="" class="_view2">-->
                             </div>
                         </div>
 
@@ -1206,132 +1105,17 @@
         <div class="modal__bg modal-bg _close-modal"></div>
         <div class="modal__dialog">
             <div class="h2">
-                Выберите город
+                Куда доставить?
             </div>
 
-            <div class="header-search">
-                <div class="fg">
-                    <input type="text" placeholder="Введите название города">
-                </div>
-                <img class="header-search__icon" src="img/search.svg" alt="">
+            <div class="fg _mt20">
+                <input type="text" placeholder="Укажите адрес доставки">
             </div>
 
-            <div class="modal-city__bottom">
-                <div class="modal-city__suggest">
-                    <div class="modal-city__suggest-item"><span class="h5">Москва</span></div>
-                    <div class="modal-city__suggest-item modal-city__suggest-item--active"><span class="h5">Екатеринбург</span></div>
-                    <div class="modal-city__suggest-item"><span class="h5">Пермь</span></div>
-                </div>
-                <div class="modal-city__letters">
-                    <a href="#group1" class="modal-city__letter">А</a>
-                    <a href="#group2" class="modal-city__letter">Б</a>
-                    <a href="#group3" class="modal-city__letter">В</a>
-                    <a href="#group4" class="modal-city__letter">Г</a>
-                    <a href="#group5" class="modal-city__letter">Е</a>
-                    <a href="#group6" class="modal-city__letter">И</a>
-                    <a href="" class="modal-city__letter">К</a>
-                    <a href="" class="modal-city__letter">Л</a>
-                    <a href="" class="modal-city__letter">М</a>
-                    <a href="" class="modal-city__letter">Н</a>
-                    <a href="" class="modal-city__letter">О</a>
-                    <a href="" class="modal-city__letter">П</a>
-                    <a href="" class="modal-city__letter">Р</a>
-                    <a href="" class="modal-city__letter">С</a>
-                    <a href="" class="modal-city__letter">Т</a>
-                    <a href="" class="modal-city__letter">У</a>
-                    <a href="" class="modal-city__letter">Ф</a>
-                    <a href="" class="modal-city__letter">Х</a>
-                    <a href="" class="modal-city__letter">Ч</a>
-                    <a href="" class="modal-city__letter">Ш</a>
-                    <a href="" class="modal-city__letter">Ю</a>
-                    <a href="" class="modal-city__letter">Я</a>
-                </div>
-
-                <div class="modal-city__groups">
-                    <div id="group1" class="modal-city__group">
-                        <div class="modal-city__group-title">А</div>
-                        <div class="modal-city__list">
-                            <div class="modal-city__item">Абакан</div>
-                            <div class="modal-city__item">Арамиль</div>
-                            <div class="modal-city__item">Армавир</div>
-                            <div class="modal-city__item">Архангельск</div>
-                            <div class="modal-city__item">Алушта</div>
-                            <div class="modal-city__item">Ардон</div>
-                            <div class="modal-city__item">Арти</div>
-                            <div class="modal-city__item">Астрахань</div>
-                            <div class="modal-city__item">Анапа</div>
-                        </div>
-                    </div>
-                    <div id="group2" class="modal-city__group">
-                        <div class="modal-city__group-title">Б</div>
-                        <div class="modal-city__list">
-                            <div class="modal-city__item">Абакан</div>
-                            <div class="modal-city__item">Арамиль</div>
-                            <div class="modal-city__item">Армавир</div>
-                            <div class="modal-city__item">Архангельск</div>
-                            <div class="modal-city__item">Алушта</div>
-                            <div class="modal-city__item">Ардон</div>
-                            <div class="modal-city__item">Арти</div>
-                            <div class="modal-city__item">Астрахань</div>
-                            <div class="modal-city__item">Анапа</div>
-                        </div>
-                    </div>
-                    <div id="group3" class="modal-city__group">
-                        <div class="modal-city__group-title">В</div>
-                        <div class="modal-city__list">
-                            <div class="modal-city__item">Абакан</div>
-                            <div class="modal-city__item">Арамиль</div>
-                            <div class="modal-city__item">Армавир</div>
-                            <div class="modal-city__item">Архангельск</div>
-                            <div class="modal-city__item">Алушта</div>
-                            <div class="modal-city__item">Ардон</div>
-                            <div class="modal-city__item">Арти</div>
-                            <div class="modal-city__item">Астрахань</div>
-                            <div class="modal-city__item">Анапа</div>
-                        </div>
-                    </div>
-                    <div id="group4" class="modal-city__group">
-                        <div class="modal-city__group-title">Г</div>
-                        <div class="modal-city__list">
-                            <div class="modal-city__item">Абакан</div>
-                            <div class="modal-city__item">Арамиль</div>
-                            <div class="modal-city__item">Армавир</div>
-                            <div class="modal-city__item">Архангельск</div>
-                            <div class="modal-city__item">Алушта</div>
-                            <div class="modal-city__item">Ардон</div>
-                            <div class="modal-city__item">Арти</div>
-                            <div class="modal-city__item">Астрахань</div>
-                            <div class="modal-city__item">Анапа</div>
-                        </div>
-                    </div>
-                    <div id="group5" class="modal-city__group">
-                        <div class="modal-city__group-title">Д</div>
-                        <div class="modal-city__list">
-                            <div class="modal-city__item">Абакан</div>
-                            <div class="modal-city__item">Арамиль</div>
-                            <div class="modal-city__item">Армавир</div>
-                            <div class="modal-city__item">Архангельск</div>
-                            <div class="modal-city__item">Алушта</div>
-                            <div class="modal-city__item">Ардон</div>
-                            <div class="modal-city__item">Арти</div>
-                            <div class="modal-city__item">Астрахань</div>
-                            <div class="modal-city__item">Анапа</div>
-                        </div>
-                    </div>
-                    <div id="group6" class="modal-city__group">
-                        <div class="modal-city__group-title">Е</div>
-                        <div class="modal-city__list">
-                            <div class="modal-city__item">Абакан</div>
-                            <div class="modal-city__item">Арамиль</div>
-                            <div class="modal-city__item">Армавир</div>
-                            <div class="modal-city__item">Архангельск</div>
-                            <div class="modal-city__item">Алушта</div>
-                            <div class="modal-city__item">Ардон</div>
-                            <div class="modal-city__item">Арти</div>
-                            <div class="modal-city__item">Астрахань</div>
-                            <div class="modal-city__item">Анапа</div>
-                        </div>
-                    </div>
+            <div class="_mt20 text-center">
+                <div class="text14 gray-text">
+                    Доставляем по всей России. Разрабатываем схему погрузки, контролируем маршрут и прибытие на объект. <br>
+                Имеем собственным автотранспорт до 20т. Так же доставляем ж/д.
                 </div>
             </div>
 
